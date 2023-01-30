@@ -97,9 +97,9 @@ input_mazes:// First Obstacle Course
 characterVal: .space 4
 
 _start:
-		//bl VGA_clear_pixelbuff_ASM
+		
 	   bl VGA_clear_charbuff_ASM
-	   //SHOULD PUSH/POP Variable registers?
+	 
 	   //(r2, r3) is current position of ampersand
 	   //initial pos is always (0,0)
 	   mov r2, #0
